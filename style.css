@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    height: auto;
+    overflow: hidden;
+  
+}
+
+.header-section {
+    height: 630px;
+}
+
+.header-section h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 24px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.content-box {
+    width: 40%;
+    margin: auto;
+}
+
+.bg-img {
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 460px;
+}
+
+.content-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-box h1 {
+    font-size: 47px;
+    text-align: left;
+    padding: 0;
+}
+
+.content-box p {
+    font-size: 22px;
+    margin-top: 15px;
+    color: black;
+    margin-bottom: 35px;
+}
+
+.content-box a {
+    font-size: 22px;
+    COLOR: #FFF;
+    background-color: #E02C6D;
+    padding: 10px 50px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.content-box a i {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.collection .collection-title {
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-box {
+    width: 360px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.grid-box img {
+    width: 100%;
+}
+
+.grid-box .title {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.grid-box .price {
+    font-size: 27px;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.grid-box i {
+    font-size: 13px;
+    margin-top: 15px;
+    font-weight: 900;
+    /* only this property eat my 1h 😊😊😊😊😊 */
+    color: orange;
+}
+
+.grid-box .ratings {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.grid-box p {
+    margin-top: 5px;
+    font-size: 19px;
+}
+
+.collection a {
+    float: right;
+    padding: 40px;
+    margin-right: 100px;
+    font-weight: 900;
+    color: #E02C6D;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.collection a i {
+    margin-left: 10px;
+}
+
+.left-box {
+    width: 28%;
+}
+
+.right-box {
+    width: 55%;
+}
+
+.footer {
+    padding: 100px;
+    background-color: #0A0826;
+}
+
+.footer h1,h2,h3 {
+    text-align: center;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.footer .social-icon {
+    margin: auto;
+    width: 280px;
+    margin-top: 27px;
+}
+
+.footer .social-icon span {
+    font-size: 23px;
+    border-radius: 50%;
+    background-color: #22203B;
+    color: #ffff;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+}

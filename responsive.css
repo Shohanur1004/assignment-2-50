@@ -1,0 +1,142 @@
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .header-section {
+        height: auto;
+        padding-bottom: 35px;
+    }
+
+    .content-box {
+        width: 100%;
+        float: left;
+        margin: auto;
+    }
+
+    .bg-img {
+        order: -1;
+        height: 366px;
+    }
+
+    .bg-img img{
+        width: 338px;
+    }
+
+    .content-box h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .content-box P {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content-box a {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        width: 200px;
+        display: block;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+
+    .grid-box {
+        width: 86%;
+    }
+
+    .grid-box .price {
+        color: black;
+        text-align: left;
+    }
+
+    .m-view .right-box {
+        order: -1;
+    }
+
+    .m-view a {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .flex-container {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .header-section {
+        height: auto;
+        padding-bottom: 35px;
+    }
+
+    .content-box {
+        width: 100%;
+        float: left;
+        margin: auto;
+    }
+
+    .bg-img {
+        order: -1;
+        height: 366px;
+    }
+
+    .bg-img img{
+        width: 338px;
+    }
+
+    .content-box h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .content-box P {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content-box a {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        width: 200px;
+        display: block;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-box {
+        width: 90%;
+    }
+
+    .grid-box .price {
+        color: black;
+        text-align: left;
+    }
+
+    .m-view .right-box {
+        order: -1;
+    }
+
+    .m-view a {
+        margin-bottom: 20px;
+    }
+}
+
